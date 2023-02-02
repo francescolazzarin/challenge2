@@ -1,0 +1,65 @@
+ *{
+    box-sizing: border-box;
+    margin:0;
+} 
+.contenitore{
+    width: auto;
+    height: auto;
+}
+.logo{
+    text-align: center;
+}
+
+body{
+    background-image: url(sfondo.jpg);
+    background-size: cover;
+    
+}
+#bgnero{
+    background-color:hsl(0, 0%, 0%,0.5);
+    border-radius:2%;
+    margin: 10% 5% 10% 5%;
+    padding: 20px 30px 20px 30px;
+      
+}
+#titolo{
+    text-align: center;
+    color: greenyellow;
+    margin-top: 5px;
+   
+}
+.logo img{
+    width: 20%;
+    height: 100%;
+}
+.bottone{
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+section>h2{
+    display: inline-block;
+    color: white;
+    margin-bottom: 0%;
+    
+}
+.info{
+    color: white;
+}
+.primalinea{
+    width: 40%;
+    background-color :orange;
+}
+.secondalinea{
+    background-color: green;
+    width: 70%;
+}
+.terzalinea{
+    background-color: red;
+    width:10%;
+}
+.primalinea, .secondalinea, .terzalinea{
+    height: 12px;
+}
